@@ -1,0 +1,10 @@
+.sidebar-container {
+  background-color: #242424;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #cecece;
+  padding: 10px;
+  height: 90vh;
+}
+.hide {
+  background-color: inherit;
+}

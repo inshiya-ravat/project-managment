@@ -1,0 +1,55 @@
+.basic-info-container {
+  text-align: left;
+}
+.due-date {
+  background-color: #b5b3b3;
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+}
+.task-input-container {
+  width: 100%;
+  background-color: #aba3a3;
+  border: none;
+  border-bottom: 3px solid #3b3636;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.task-input {
+  background-color: inherit;
+  display: inline;
+  border: none;
+  width: 100%;
+  margin: 0;
+}
+.task-list {
+  display: grid;
+  grid-template-columns: 1fr 300px 200px;
+}
+.not-done {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+.not-done:hover {
+  background-color: lightgrey;
+}
+.done {
+  background-color: #f7ba48;
+}
+.done:hover {
+  background-color: #e8af43;
+}
+.cancel {
+  background-color: #f04949;
+  color: white;
+  font-style: bold;
+  margin: 10px 10px 0px 60px;
+}
+.cancel:hover {
+  background-color: #dd4545;
+}
+.hide {
+  background-color: inherit;
+}

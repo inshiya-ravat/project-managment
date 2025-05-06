@@ -1,0 +1,16 @@
+.save {
+  background-color: #55b36a;
+  margin: 10px 20px;
+}
+.save:hover {
+  background-color: #449455;
+}
+.cancel {
+  background-color: #f04949;
+  color: white;
+  font-style: bold;
+  margin: 10px 10px 0px 60px;
+}
+.cancel:hover {
+  background-color: #dd4545;
+}
