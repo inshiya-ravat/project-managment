@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Project } from "../../App";
 import Add from "../../assets/add.svg";
 import "./Content.css";
@@ -23,7 +23,7 @@ const Content = ({
   deleteTask,
   markAsDone,
 }: ContentProp) => {
-  const taskRef = useRef<HTMLInputElement>(null);
+  const taskRef = React.useRef<HTMLInputElement>(null);
   return (
     <div>
       <ul>

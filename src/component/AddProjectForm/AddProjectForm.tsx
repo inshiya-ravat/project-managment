@@ -8,7 +8,7 @@ interface AddProjectFormProp {
 }
 
 const AddProjectForm = ({ handleCancel, handleSave }: AddProjectFormProp) => {
-  const titleRef = useRef<HTMLInputElement>(null);
+  const titleRef = React.useRef<HTMLInputElement>(null);
   const descRef = useRef<HTMLInputElement>(null);
   const dueDateRef = useRef<HTMLInputElement>(null);
   return (
